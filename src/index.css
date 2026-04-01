@@ -66,6 +66,64 @@ body {
   padding: 24px;
 }
 
+.dashboard-page h2 {
+  margin-top: 0;
+}
+
+.dashboard-stats-section h3 {
+  margin: 24px 0 8px;
+  font-size: 1rem;
+}
+
+.dashboard-stats-hint {
+  margin: 0 0 16px;
+  font-size: 0.875rem;
+  color: #64748b;
+  max-width: 52ch;
+}
+
+.dashboard-stats-hint code {
+  font-size: 0.85em;
+  background: #e2e8f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.dashboard-stats-loading {
+  margin: 0;
+  color: #64748b;
+}
+
+.dashboard-stats-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+}
+
+.dashboard-stat-card {
+  background: #fff;
+  border: 1px solid #d4dbe5;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dashboard-stat-label {
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.dashboard-stat-value {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #4f46e5;
+}
+
 .signin-wrapper {
   min-height: 100vh;
   display: grid;
